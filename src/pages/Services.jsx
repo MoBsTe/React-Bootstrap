@@ -1,7 +1,10 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import AppExchande from '../components/AppExchande';
 import Servicess from '../components/Services';
 const Services = () => {
+    useEffect(() => {
+        document.title = 'Services | Success Craft';
+    }, []);
     return (
         <div>
             <section className='title-page services-bg'>

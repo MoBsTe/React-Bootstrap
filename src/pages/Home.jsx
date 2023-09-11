@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import ChooseItems from '../components/ChooseItems'
 import AppExchande from '../components/AppExchande';
 import TechhnologiesItem from '../components/TechhnologiesItem';
@@ -6,6 +6,9 @@ import Form from '../components/Form';
 import Services from '../components/Services';
 import { Routes, Route, Link } from 'react-router-dom'
 const Home = () => {
+    useEffect(() => {
+        document.title = 'Salesforce Development Services| Salesforce Consulting | Success Craft';
+    }, []);
     const technologies = [
         {
             id: 1,

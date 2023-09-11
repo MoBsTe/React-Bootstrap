@@ -1,8 +1,11 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import Form from '../components/Form';
 import { MdLocationPin } from 'react-icons/md'
 import { BsPhone } from 'react-icons/bs'
 const Contacts = () => {
+    useEffect(() => {
+        document.title = 'Contacts | Success Craft';
+    }, []);
     return (
         <div>
             <section className='title-page contact-bg'>

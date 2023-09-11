@@ -23,12 +23,12 @@ function App() {
     <div className="App">
 
       <header className='header' >
-        <div className='container-sm pt-3 pb-3'>
+        <div className='container pt-3 pb-3'>
           <div className='row'>
             <div className='col-10 col-lg-4'>
-              <a href="#">
+              <Link to="/">
                 <img src="https://success-craft.com/_nuxt/img/logo-white.411c88f.svg" alt="" className='header__logo__img img-fluid' />
-              </a>
+              </Link>
             </div>
             <div className='col-2 col-lg-8'>
               <div className='header__burger' >

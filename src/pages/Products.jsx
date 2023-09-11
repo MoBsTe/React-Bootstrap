@@ -1,6 +1,9 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import AppExchande from '../components/AppExchande';
 const Products = () => {
+    useEffect(() => {
+        document.title = 'Products | Success Craft';
+    }, []);
     return (
         <div className='products'>
             <section className='title-page products-bg'>

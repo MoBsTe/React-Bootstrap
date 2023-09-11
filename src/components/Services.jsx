@@ -1,9 +1,7 @@
 import React, { useEffect } from 'react';
 
 const Services = () => {
-    useEffect(() => {
-        document.title = 'My Page Title';
-    }, []);
+
     return (
         <div className='row'>
             <div className='col-12 col-lg-6'>

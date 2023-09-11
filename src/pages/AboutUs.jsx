@@ -1,6 +1,9 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 
 const AboutUs = () => {
+    useEffect(() => {
+        document.title = 'About company | Success Craft';
+    }, []);
     return (
         <div>
             <section className='title-page about-bg'>
