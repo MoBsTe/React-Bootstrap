@@ -94,7 +94,7 @@ function App() {
 
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/services' element={<Services />} />
+        <Route path='/services' index element={<Services />} />
         <Route path='/products' element={<Products />} />
         <Route path='/technologies' element={<Technologies />} />
         <Route path='/about-us' element={<AboutUs />} />
